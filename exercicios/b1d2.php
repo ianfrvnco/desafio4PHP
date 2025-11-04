@@ -75,8 +75,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <br>
             <?php
             echo "<label>";
-            if (!empty($area && !empty($perimetro))) {
-                echo "Resultado área: $area";
+            if (!empty($area) && !empty($perimetro)) {
+                echo "Resultado área: $area<br>";
                 echo "Resultado perimetro: $perimetro";
                 echo "</label>";
             }
